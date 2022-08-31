@@ -1,0 +1,10 @@
+9.What is the difference between Server Side Rendering (SSR) and Static Site Generation (SSG)? When would you prefer SSG over SSR?
+
+
+
+
+
+Solution:
+In server side rendering, the user agent requests a page. Then the sever generates the page’s HTML output and sends it back. The browser renders the HTML page afterwards.
+Meanwhile, in static site generation, there’s no need of server.
+SSG is preferred over SSR if whenever we lack highly dynamic data that needs to be unique for every user.
