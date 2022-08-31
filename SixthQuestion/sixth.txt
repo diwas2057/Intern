@@ -1,0 +1,21 @@
+6. What is the output when I execute both the functions? Are they same/different? If yes/no then why? 
+function func1() { 
+     return { 
+out: "hello" };
+  }
+ function func2() {
+      return
+     { 
+out: "hello" };
+      }
+
+
+
+Solution:
+Func1 will return out: “hello” but the function2 will return “undefined” because of the automatic semicolon insertion. In above example, function func2 is translated into
+		function func2(){
+return;
+{
+				out:”hello”
+}
+The semicolon then terminates the return statement and therefore returns undefined.
