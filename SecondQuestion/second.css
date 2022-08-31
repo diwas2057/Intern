@@ -1,0 +1,15 @@
+.parent{
+  position: absolute;
+}
+.content{
+  position: relative;
+  left: 600px;
+  padding: 10px 10px;
+  margin-top: 10px;
+  border: 1px solid black;
+  text-align: center;     ;
+}
+  
+.btn{
+  margin-bottom: 20px;
+}
